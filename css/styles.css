@@ -141,8 +141,8 @@ img {
 
 .main-left{
     margin-top: 18%; 
-    display:flex;
-    flex-direction: column;  
+    width: 100%;
+    max-width: 1200px;  
 }
 .bttns {
 
@@ -314,7 +314,6 @@ border-radius: 0px;
         z-index: 1;
     }
     .main-left {
-        width: 100%;
         margin-top: 48px;
         
     }
