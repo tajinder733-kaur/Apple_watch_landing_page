@@ -200,10 +200,13 @@ img {
     margin-top: 64px;
     color:#FFFFFF;
 }
+.slider-image {
+    margin-top:50px;
+}
 
 #indicator{
     
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     position: absolute;
     z-index: 15;
@@ -211,7 +214,7 @@ img {
     padding-left: 0;
     text-align: center;
     list-style: none;
-    margin-left:0px; */
+    margin-left:0px;
     
     
 }
