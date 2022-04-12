@@ -328,12 +328,12 @@ border-radius: 0px;
     .watches{
         display:none;
     }
-    .main-left span{
+    /* .main-left span{
         font-size: 6vw;
     }
     .main-para {
 
-        font-size: 6vw;}
+        font-size: 6vw;} */
     
     .nav {
         height: 100%;
@@ -367,11 +367,11 @@ border-radius: 0px;
     }
 
     .main-para{
-        line-height: 32px;
+        line-height: 8px;
     }
     .sub-title {
         font-size: 4vw;
-        line-height: 58px;}
+        line-height: 36px;}
 
         img{
             width: auto;
