@@ -7,7 +7,6 @@
 }
 body {
     position: relative;
-    min-height: 100%;
     top: 0px;
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
@@ -17,6 +16,12 @@ img {
     width: auto;
     max-width: 100%;
 }
+.shadow{background-color: #ABC6D6;
+    height: 25px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 86px;
+    filter: blur(9px);}
 .logo{
     width: 100%;
     max-width: 38px;
@@ -77,6 +82,7 @@ img {
     padding: 10px 21px 10px 21px;
     text-decoration: none;
     color: #FFFFFF;
+    margin-left: 63px;
   }
   
   .nav > .nav-links > a:hover {
@@ -91,7 +97,7 @@ img {
   }
  
 .header-right{
-    width: 80%;
+    width: 48%;
     display: flex;
     justify-content: end;
     align-items: baseline;
@@ -101,11 +107,16 @@ img {
     border-right: #fff solid 1px;
     margin-right: 20px;
     padding-right: 20px;
+
 }
+
 .main{ 
     display:flex;
     justify-content: space-between;
   
+}
+.middle-section{
+    display:flex;
 }
 .main-right{
     max-width: 37%;
@@ -115,59 +126,94 @@ img {
 
         width: 100%;
     }
-.main-left p{
-    
-    font-style: normal;
-    font-weight: 700;
-    font-size: 43px;
-    line-height: 62px;
+.main-para{
+
+    font-weight: bolder;
+    font-size: 4vw;
+    line-height: 60px;
     color: #FFFFFF;
+    font-family: 'Poppins';
 }
-.main-left span{
-    color: #FFFFFF; font-size: 40px;}
+.sub-title{
+    font-size: 4vw;
+    line-height: 74px;
+    color: #FFFFFF;font-family: 'Poppins';}
 
 .main-left{
-    margin-top: 12%;   
+    margin-top: 18%;   
 }
 .bttns {
-    border: 2px #fff solid;
-    padding: 5px 26px;
+
+    padding: 11px 50px;
     color: #fff;
-    border-radius: 16px;
-    text-decoration: none; 
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-weight: bold;
 }
 .bttns:hover{
-    color: #fff;
+
+    background-color: #fff;
+    color: #B6CCDA;
+    border-color: #fff;
+    border-radius: 22px;
     text-decoration: none;
 }
 .main-bttn{
-    margin-top:65px;
+    margin-top: 70px;
+    margin-bottom: 32px;
 }
 .bottom-watches{
     display:flex;
 }
 .watches{
     margin-left: 18px;
+    transition: all 0.4s ease;
     
+}
+
+.watches:hover {
+    transform: translateY(-10px);
 }
 .icons{
     position: absolute;
     width:100%;
-    bottom: 0;
+    bottom: 38px;
 }
 .icons-all{
     text-align: center;
-    margin-bottom: 14px;
+    margin-bottom: 10px;
     width:100%;
-
+    transition: all 0.4s ease;
 }
+
+.icons-all:hover {
+    transform: translateY(-10px);
+}
+
 .section{
     display:flex;
     justify-content: space-between;
 }
 .numbers {
-    margin-top: 38px;
+    margin-top: 64px;
     color:#FFFFFF;
+}
+
+#indicator{
+    
+    /* display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 15;
+    width: 4%;
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
+    margin-left:0px; */
+    
+    
 }
 @media screen and (max-width: 1230px){
 
@@ -208,7 +254,7 @@ img {
     }
 
     .main-bttn {
-        margin-top: 32px;
+        margin-top: 48px;
     }
     
     .nav > .nav-btn {
@@ -223,7 +269,7 @@ img {
         display: inline-block;
         width: 50px;
         height: 50px;
-        padding: 13px;
+        padding: 18px 8px;
        
     }
    
@@ -249,6 +295,13 @@ img {
         display: block;
         width: 100%;
         color:#B6CCDA;
+        margin-left:0px;
+        margin-top: 68px;
+    }
+    .nav > .nav-links > a:hover {
+background-color: #B6CCDA;
+color:black;
+border-radius: 0px;
     }
     .nav > #nav-check:not(:checked) ~ .nav-links {
         height: 0px;
@@ -276,13 +329,12 @@ img {
         display:none;
     }
     .main-left span{
-        font-size: 4vw;
+        font-size: 8vw;
     }
+    .main-para {
 
-    .main-left p {   
-        font-size: 4vw;    
-        line-height: 36px;
-    }
+        font-size: 8vw;}
+    
     .nav {
         height: 100%;
         width: 100%;
@@ -300,12 +352,29 @@ img {
         width:100%;
         max-width: 142px;
         padding-right:8px;
+        bottom: 0px;
+
         
     }
     .header {
         margin-left: 0;
         margin-top: 0;
     }
-        
+       
+
+    .logo{
+        margin-top: 16px;
+    }
+
+    .main-para{
+        line-height: 32px;
+    }
+    .sub-title {
+        font-size: 4vw;
+        line-height: 58px;}
+
+        img{
+            width: auto;
+            max-width: 78%;
 
 }
