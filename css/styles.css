@@ -140,9 +140,7 @@ img {
     color: #FFFFFF;font-family: 'Poppins';}
 
 .main-left{
-    margin-top: 18%; 
-    width: 100%;
-    max-width: 1200px;  
+    margin-top: 18%;   
 }
 .bttns {
 
@@ -314,6 +312,7 @@ border-radius: 0px;
         z-index: 1;
     }
     .main-left {
+        width: 100%;
         margin-top: 48px;
         
     }
@@ -334,7 +333,7 @@ border-radius: 0px;
     }
     .main-para {
 
-        font-size: 8vw;}
+        font-size: 7vw;}
     
     .nav {
         height: 100%;
